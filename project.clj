@@ -4,10 +4,10 @@
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.9.0"]
-                 [org.clojure/tools.cli "0.3.7"]
+                 [org.clojure/tools.cli "0.4.1"]
 
                  [clj-http "3.9.1"]
-                 [cheshire "5.8.0"]
+                 [cheshire "5.8.1"]
                  [clj-time "0.14.4"]
 
                  [com.novemberain/monger "3.1.0"]
@@ -20,13 +20,14 @@
                  [hiccup "1.0.5"]
                  ;; [hickory "0.7.1"]
 
-                 [cprop "0.1.11"]
+                 [cprop "0.1.13"]
                  
                  [org.clojure/tools.logging "0.4.1"]
                  [log4j/log4j "1.2.17"]]
   :plugins [[lein-ancient "0.6.15"]]
   ;; :main ^:skip-aot clj-so.core
-  :main ^:skip-aot clj-so.dbc
+  ;; :main ^:skip-aot clj-so.dbc
+  :main ^:skip-aot clj-so.ws
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}
              :dev {:jvm-opts ["-Dconf=../config.edn"]}})
