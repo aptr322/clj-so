@@ -2,6 +2,8 @@
   (:require [clj-so.dbc :refer :all]
             ;; [hiccup.core  :as hc]
 
+            [lobos.analyzer :as la]
+
             [clojure.tools.logging :as log])
   (:gen-class))
 
@@ -13,7 +15,5 @@
 ;; (defn src-to-hiccup [s] 
 ;;   (let [h  (as-hiccup (parse s))]
 ;;     h))
-
-
 
 

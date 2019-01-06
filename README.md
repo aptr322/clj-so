@@ -1,42 +1,36 @@
 # clj-so
 
-stackoverflow data 
+FIXME: description
 
 ## Installation
 
-
+Download from http://example.com/FIXME.
 
 ## Usage
 
-Run from lein
-    $ lein run -m clj-so.core/proc-tag arg1 arg2
+FIXME: explanation
 
-Run directly
     $ java -jar clj-so-0.1.0-standalone.jar [args]
- Q: how to specify class (or even namespace/function)
-
 
 ## Options
 
--x host:port http proxy
+FIXME: listing of options this app accepts.
 
 ## Examples
 
-
+...
 
 ### Bugs
 
-
+...
 
 ### Any Other Sections
 ### That You Think
 ### Might be Useful
 
-
-
 ## License
 
-Copyright © 2018 FIXME
+Copyright © 2016 FIXME
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
