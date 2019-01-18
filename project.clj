@@ -15,7 +15,6 @@
                  [org.clojure/java.jdbc "0.7.8"]
                  [mysql/mysql-connector-java "5.1.39"]
                  ;; [mysql/mysql-connector-java "8.0.8"]
-                 ;; [lobos "1.0.0-beta3"]
                  
                  [hiccup "1.0.5"]
                  ;; [hickory "0.7.1"]
